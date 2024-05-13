@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/save_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="33dp"
+    android:textStyle="bold"
+    android:hint=" 아이디:0000 \n 비밀번호:****님 \n 로그인 되었습니다."
+    />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+<TextView
+    android:id="@+id/save_time"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:hint="시간: YYYY-MM-DD hh:mm:ss  "
+    />
+</LinearLayout>

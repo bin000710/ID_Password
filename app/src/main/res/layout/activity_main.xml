@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#83302F2F"
+        />
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#83302F2F"
+        />
+
+
+    <View
+
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text=" Username"
+         android:textSize="23dp"
+         android:textStyle="bold"
+         android:textColor="@color/black"
+         />
+<EditText
+    android:id="@+id/et_ID"
+    android:layout_width="390dp"
+    android:layout_height="48dp"
+    android:textSize="30dp"
+    android:background="@drawable/basic_color"
+    android:hint=" Enter your username"
+    />
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Password"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="390dp"
+        android:layout_height="48dp"
+        android:textSize="30dp"
+        android:background="@drawable/basic_color"
+        android:hint=" Enter your password"
+        />
+
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        />
+    <Button
+        android:id="@+id/Button_login"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:text="Log in"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        />
+
+  </LinearLayout>
